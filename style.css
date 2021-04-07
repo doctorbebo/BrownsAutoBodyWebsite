@@ -41,8 +41,12 @@ header
     
 footer
 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-image: linear-gradient(rgb(233, 51, 53), rgb(236, 106, 48));
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 5px;
 }
 
