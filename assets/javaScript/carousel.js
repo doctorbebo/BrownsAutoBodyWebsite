@@ -6,7 +6,9 @@ const displayImage = document.querySelector("#diplay-image");
 const imageFolderPath = "./assets/images/carouselImages/";
 const fileNames = [];
 fileNames[0] = "car01.jpeg";
-fileNames[1] = "car04.jpeg";
+fileNames[1] = "car02.jpeg";
+fileNames[2] = "car03.jpeg";
+fileNames[3] = "car04.jpeg";
 
 let index = 0;
 const time = 4000;
