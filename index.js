@@ -16,7 +16,7 @@ directionsButton.addEventListener("click", () => {
 });
 
 callButton.addEventListener('click', () => {
-    document.location.href = "tel:+123-456-7890";
+    document.location.href = "tel:+18146435423";
 })
 
 emailButton.addEventListener("click", () => {
