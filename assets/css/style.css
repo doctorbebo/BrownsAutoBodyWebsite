@@ -4,14 +4,18 @@
   text-align: center;
   justify-content: center;
 }
+
 a {
   text-decoration: none;
   font-weight: bold;
   color: black;
   font-size: x-large;
 }
+
 body {
-  border: solid #ec6a30 3px;
+  background-color: rgb(254, 254, 254);
+  min-height: 100vh;
+  position: relative;
 }
 
 button {
@@ -22,40 +26,44 @@ h1 {
   font-size: 40px;
   font-weight: bold;
 }
+
 h2 {
   font-size: 32px;
   font-weight: bold;
 }
+
 h3 {
   font-size: 25px;
   font-weight: bold;
 }
+
 h4 {
   font-size: 20px;
   font-weight: bold;
 }
+
 footer {
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 3.5rem;
   background-image: linear-gradient(rgb(233, 51, 53), rgb(236, 106, 48));
   padding-top: 30px;
   padding-bottom: 5px;
 }
+
 header {
   vertical-align: baseline;
   border-top: solid #ec6a30 2px;
   border-bottom: solid #ec6a30 2px;
 }
+
 main {
   max-width: 1200px;
   margin: auto;
   padding: 15px;
 }
-nav {
-}
 
-.bg {
-  background-color: rgb(254, 254, 254);
-}
 .block-container {
   width: 100%;
   display: inline-block;
@@ -73,9 +81,11 @@ nav {
   background-image: linear-gradient(rgb(233, 51, 53), rgb(236, 106, 48));
   min-width: 300px;
 }
+
 .btn:hover {
   background-image: linear-gradient(rgb(210, 51, 53), rgb(216, 106, 48));
 }
+
 .btn:active {
   background-image: linear-gradient(rgb(200, 51, 53), rgb(206, 106, 48));
 }
@@ -85,11 +95,13 @@ nav {
   max-height: 627px;
   align-items: stretch;
 }
-.carousel-container > img {
+
+.carousel-container>img {
   flex-grow: 6;
   flex-shrink: 6;
   min-width: 0;
 }
+
 .carousel-button {
   background-image: linear-gradient(rgb(233, 51, 53), rgb(236, 106, 48));
   flex-shrink: 1;
@@ -104,7 +116,8 @@ nav {
     height: 75px;
     border: solid black 1px;
   }
-  .carousel-button{
+
+  .carousel-button {
     min-width: 40px;
     height: none;
   }
@@ -119,6 +132,10 @@ nav {
   flex-wrap: wrap;
 }
 
+.content-wrap {
+  padding-bottom: 3.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -126,18 +143,23 @@ nav {
 .flex-1 {
   flex-grow: 1;
 }
+
 .flex-2 {
   flex-grow: 2;
 }
+
 .flex-3 {
   flex-grow: 3;
 }
+
 .flex-4 {
   flex-grow: 4;
 }
+
 .flex-5 {
   flex-grow: 5;
 }
+
 .flex-6 {
   flex-grow: 6;
 }
@@ -145,9 +167,11 @@ nav {
 .p5 {
   padding: 5px;
 }
+
 .p10 {
   padding: 10px;
 }
+
 .p20 {
   padding: 20px;
 }
