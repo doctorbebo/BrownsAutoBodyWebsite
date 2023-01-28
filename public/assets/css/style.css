@@ -80,6 +80,7 @@ main {
 .btn {
   background-image: linear-gradient(rgb(233, 51, 53), rgb(236, 106, 48));
   min-width: 300px;
+  color: black
 }
 
 .btn:hover {
