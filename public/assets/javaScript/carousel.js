@@ -1,7 +1,10 @@
 const leftButton = document.querySelector("#left-btn");
 const rightButton = document.querySelector("#right-btn");
-const imageWrapper = document.querySelector("#img-wrapper");
 const displayImage = document.querySelector("#diplay-image");
+
+
+import json from './img_names.json';
+console.log(json);
 
 const imageFolderPath = "./assets/images/carouselImages/";
 const fileNames = [];
