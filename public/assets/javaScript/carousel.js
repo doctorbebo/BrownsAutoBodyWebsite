@@ -2,10 +2,6 @@ const leftButton = document.querySelector("#left-btn");
 const rightButton = document.querySelector("#right-btn");
 const displayImage = document.querySelector("#diplay-image");
 
-
-import json from './img_names.json';
-console.log(json);
-
 const imageFolderPath = "./assets/images/carouselImages/";
 const fileNames = [];
 fileNames[0] = "car01.jpeg";
