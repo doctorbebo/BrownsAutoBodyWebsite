@@ -128,11 +128,6 @@ main {
   }
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .content-wrap {
   padding-bottom: 3.5rem;
 }
@@ -163,6 +158,15 @@ main {
 
 .flex-6 {
   flex-grow: 6;
+}
+
+.flex-basis {
+  flex-basis: 0;
+}
+
+.flex-space-evenly > * {
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .p5 {
