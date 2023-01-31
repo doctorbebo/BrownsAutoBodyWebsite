@@ -6,8 +6,8 @@ const directionsButton = document.querySelector("#direction-button");
 
 directionsButton.addEventListener("click", () => {
   if (navigator.platform.indexOf("iPhone") != -1 || navigator.platform.indexOf("iPad") != -1 || navigator.platform.indexOf("iPod") != -1)
-    window.open("http://maps.apple.com/?daddr=Browns+AutoBody+LLC+1824+Allegheny+St+Huntingdon+PA+16652");
-  else window.open("https://www.google.com/maps/search/?api=1&query=Browns+AutoBody+LLC+1824+Allegheny+St+Huntingdon+PA+16652");
+    window.open("http://maps.apple.com/?daddr=Browns+AutoBody+LLC+10800+Glover+ln+Mill+Creek+PA+17060");
+  else window.open("https://www.google.com/maps/search/?api=1&query=Browns+AutoBody+LLC+10800+Glover+ln+Mill+Creek+PA+17060");
 });
 
 callButton.addEventListener('click', () => {
