@@ -47,22 +47,27 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  height: 3.5rem;
+  height: 4rem;
   background-image: linear-gradient(rgb(233, 51, 53), rgb(236, 106, 48));
-  padding-top: 30px;
-  padding-bottom: 5px;
+}
+
+footer p {
+  padding: 0.5rem 0px;
 }
 
 header {
   vertical-align: baseline;
-  border-top: solid #ec6a30 2px;
-  border-bottom: solid #ec6a30 2px;
 }
 
 main {
   max-width: 1200px;
   margin: auto;
   padding: 15px;
+}
+
+nav {
+  border-top: black solid 1px;
+  border-bottom: black solid 1.25px;
 }
 
 .block-container {
@@ -113,22 +118,6 @@ main {
   justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .btn {
-    height: 75px;
-    border: solid black 1px;
-  }
-
-  .carousel-button {
-    min-width: 40px;
-    height: none;
-  }
-
-  .contact-info {
-    display: none;
-  }
-}
-
 .content-wrap {
   padding-bottom: 3.5rem;
 }
@@ -170,6 +159,10 @@ main {
   flex-basis: 0;
 }
 
+.mobile-hide {
+  display: block;
+}
+
 .p5 {
   padding: 5px;
 }
@@ -202,6 +195,34 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
+
+  nav.flex{
+    display: block;
+  }
+
+  nav.flex .btn {
+    display: block;
+    width: 100%;
+  } 
+
+  .btn {
+    height: 75px;
+    border: solid black 1px;
+  }
+
+  .carousel-button {
+    min-width: 40px;
+    height: none;
+  }
+
+  .contact-info {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
   #call-button {
     display: block;
   }
